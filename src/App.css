@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Questrial&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: rgb(234, 51, 51);
+    color: white;
+}
+
+/* Landing */
+
+@media (min-width: 1700px) {
+    .big_fonts {
+        font-size: 750px !important;
+    }
+    .big_font {
+        font-size: 600px !important;
+    }
+}
+
+
+@media (min-width: 1280px) and (max-width: 1700px){
+    .boxing{
+        gap:3 !important;
+    }
+    .text1{
+        font-size: 20px !important;
+    }
+    .text2{
+        font-size: 22px !important;
+    }
+}
+
+/* About */
+@media (min-width: 1500px) and (max-width: 1738px){
+   .heading{
+    font-size:100px !important;
+   }
+   .role{
+    font-size: 50px !important;
+   }
+   .data{
+    font-size: 28px !important;
+   }
+   .image-box{
+    height: 80% !important;
+    width: 80% !important;
+   }
+}
+
+@media (min-width: 1224px) and (max-width: 1500px){
+    .heading{
+     font-size:60px !important;
+    }
+    .role{
+     font-size: 40px !important;
+    }
+    .data{
+     font-size: 22px !important;
+    }
+    .image-box{
+     height: 80% !important;
+     width: 80% !important;
+    }
+ }
+
+/* project page */
+
+@media (min-width: 800px) and (max-width: 1500px){
+   .big-text{
+    font-size: 300px;
+   }
+   .project-box{
+    justify-content: center;
+   }
+ }
+
+ @media (min-width: 1px) and (max-width: 1224px){
+    .big-text{
+     font-size: 200px !important;
+     text-align: center !important;
+    }
+    .project-box{
+     justify-content: center !important;
+     align-items: center !important;
+     
+  }
+}
+  
+
+/* vehicle page */
+/* netflix page */
+
+@media (min-width: 1224px) and (max-width: 1545px){
+    .project-name{
+        font-size: 190px;
+    }
+    .netflix-name{
+        font-size: 220px;
+    }
+    .big-num{
+        font-size: 350px;
+    }
+  }
+
+  /* vehicle page */
+  @media (min-width: 768px) and (max-width: 1224px){
+    .vehicle-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .desc{
+        font-size: 20px;
+    }
+    .project-name{
+        font-size: 150px;
+    }
+    .big-num{
+        font-size: 250px;
+    }
+    .box{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .box1,.box2{
+        width: 100%;
+        padding: 0px 0px;
+        justify-content: center;    
+    }
+    .box22,.box11{
+       z-index: 10;
+        justify-content: center;
+        align-items: center;
+        gap: 2;
+        min-width: auto;
+   }
+  }
+
+  @media (min-width: 768px) and (max-width: 1224px){
+    .vehicle-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .desc{
+        font-size: 20px;
+        text-align: center;
+    }
+    .project-name{
+        font-size: 200px;
+        text-align: center;
+    }
+    .big-num{
+        font-size: 300px;
+    }
+    .box1{
+        width: 100%;
+        height: 50%;
+        gap: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+    .box1-inner{
+        gap: 0px;
+        line-height:0%;
+    }
+
+    .box2{
+        width: 100%;
+        padding: 0px 0px;
+        justify-content: center;    
+        align-items: center;
+    }
+    .box2-inner{
+        padding: 0px 15px;
+        height: auto;
+        width: auto;
+    }
+    .images{
+        height: 43vh;
+        width: 40vw;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1224px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .left{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+        gap: 10px;
+    }
+    .right{
+        width: 100%;
+        height: 40vh;
+    }
+    .heading{
+        font-size:50px !important;
+        border: none;
+        text-decoration: underline;
+    }
+    .role{
+        font-size: 30px !important;
+    }
+    .data{
+        font-size:22px !important;
+    }
+    .image-box{
+        height: 100% !important;
+        width: 50% !important;
+        object-position: top;
+    }
+
+  }
+
+  
